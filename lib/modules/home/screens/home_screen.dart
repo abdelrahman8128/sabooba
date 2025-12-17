@@ -72,11 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
               fit: BoxFit.contain,
             ),
           ),
-          const SizedBox(width: 18),
-          Text(
-            'app_name'.tr(),
-            style: const TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
-          ),
+          
         ],
       ),
       actions: [
